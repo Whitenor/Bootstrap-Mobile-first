@@ -1,7 +1,18 @@
 body{
     min-height:100vh;
+    padding: 0;
+    margin: 0;
 }
-.container{
-    background-color: blue;
-    height: 40vh;
+header{
+    min-height: 90vh;
+    background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
+}
+header>.container>.row>div>h2{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    height: 10%;
+}
+#headerContent{
+    height: 90%;
 }
