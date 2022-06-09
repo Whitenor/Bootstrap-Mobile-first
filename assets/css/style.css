@@ -18,6 +18,10 @@ nav{
     height: 70px;
     width: auto;
 }
+#play{
+    width: 25px;
+    height: 25px;
+}
 @media screen and (min-width: 768px) {
     .test{
         background-color: transparent !important;
