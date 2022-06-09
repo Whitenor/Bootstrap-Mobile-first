@@ -13,8 +13,13 @@ nav{
     min-height: 60vh;
     object-fit: cover;
 }
+
+#Feature1 > div > div > div > img {
+    height: 70px;
+    width: auto;
+}
 @media screen and (min-width: 768px) {
-    .bg-light{
+    .test{
         background-color: transparent !important;
     }
 }
