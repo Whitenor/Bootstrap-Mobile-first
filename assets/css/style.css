@@ -25,6 +25,9 @@ nav{
 .bg-16697A{
     background-color: #16697A;
 }
+#Feature2{
+    min-height: 60vh;
+}
 @media screen and (min-width: 768px) {
     .test{
         background-color: transparent !important;
