@@ -25,9 +25,6 @@ nav{
     width: 25px;
     height: 25px;
 }
-#Clients{
-    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(37,43,66,1) 80%, rgba(37,43,66,1) 100%);;
-}
 .bg-16697A{
     background-color: #16697A;
 }
@@ -37,5 +34,8 @@ nav{
 @media screen and (min-width: 768px) {
     .test{
         background-color: transparent !important;
+    }
+    #Clients{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(37,43,66,1) 70%, rgba(37,43,66,1) 100%);
     }
 }
