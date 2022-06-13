@@ -50,10 +50,14 @@ nav{
 }
 #Feature2{
     min-height: 60vh;
+    background-color: #FAFAFA;
 }
 #play{
     width: 25px;
     height: 25px;
+}
+#Contacts{
+    background-color: #F3F3F3;
 }
 
 
@@ -88,7 +92,7 @@ nav{
         background-color: transparent !important;
     }
     #Clients{
-        background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(37,43,66,1) 80%, rgba(37,43,66,1) 100%);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(37,43,66,1) 70%, rgba(37,43,66,1) 100%);
     }
     #imgSecretaire{
         transform: translateX(25%);
