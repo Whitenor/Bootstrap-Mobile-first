@@ -18,15 +18,21 @@ nav{
     height: 70px;
     width: auto;
 }
+#Feature2{
+    min-height: 60vh;
+}
 #play{
     width: 25px;
     height: 25px;
 }
+#Clients{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(37,43,66,1) 80%, rgba(37,43,66,1) 100%);;
+}
 .bg-16697A{
     background-color: #16697A;
 }
-#Feature2{
-    min-height: 60vh;
+.bg-252B42{
+    background-color: #252B42;
 }
 @media screen and (min-width: 768px) {
     .test{
