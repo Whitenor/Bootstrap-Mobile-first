@@ -9,11 +9,45 @@ header{
 nav{
     height: 10%;
 }
+#titleWebSite{
+    font-size: 32px;
+}
+#ulNavTop > li > a{
+    font-size: 14px;
+    color: #737373;
+}
+#h2Header{
+    font-size: 40px;
+    color: #252B42;
+}
 #imgSecretaire{
     min-height: 60vh;
     object-fit: cover;
 }
+#pSizeChangeHeader{
+    font-size: 20px;
+    color: #737373;
+}
+#textHeader > div > a:nth-child(1) {
+    background-color: #00A0C1;
+    font-size: 14px;
+}
+#textHeader > div > a:nth-child(1):hover {
+    background-color: transparent;
+    border: solid 1px #00A0C1 !important;
+    color: #00A0C1 !important;
+}
+#textHeader > div > a:nth-child(2) {
+    border: solid 1px #00A0C1;
+    color: #00A0C1;
+    font-size: 14px;
+}
+#textHeader > div > a:nth-child(2):hover {
+    border: solid 1px transparent;
+    color: white !important;
+    background-color: #00A0C1;
 
+}
 #Feature1 > div > div > div > img {
     height: 70px;
     width: auto;
@@ -37,5 +71,11 @@ nav{
     }
     #Clients{
         background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(37,43,66,1) 70%, rgba(37,43,66,1) 100%);
+    }
+    #imgSecretaire{
+        transform: translateX(25%);
+    }
+    #h2Header{
+        font-size: 58px;
     }
 }
