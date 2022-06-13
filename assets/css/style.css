@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 header{
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
@@ -13,12 +14,7 @@ nav{
     font-size: 32px;
 }
 #ulNavTop > li > a{
-    font-size: 14px;
     color: #737373;
-}
-#h2Header{
-    font-size: 40px;
-    color: #252B42;
 }
 #imgSecretaire{
     min-height: 60vh;
@@ -26,11 +22,9 @@ nav{
 }
 #pSizeChangeHeader{
     font-size: 20px;
-    color: #737373;
 }
 #textHeader > div > a:nth-child(1) {
     background-color: #00A0C1;
-    font-size: 14px;
 }
 #textHeader > div > a:nth-child(1):hover {
     background-color: transparent;
@@ -40,7 +34,6 @@ nav{
 #textHeader > div > a:nth-child(2) {
     border: solid 1px #00A0C1;
     color: #00A0C1;
-    font-size: 14px;
 }
 #textHeader > div > a:nth-child(2):hover {
     border: solid 1px transparent;
@@ -52,6 +45,9 @@ nav{
     height: 70px;
     width: auto;
 }
+#middleCardFeature1{
+    background-color: #40B8D1;
+}
 #Feature2{
     min-height: 60vh;
 }
@@ -59,18 +55,40 @@ nav{
     width: 25px;
     height: 25px;
 }
+
+
+/* Custom Class */
+
 .bg-16697A{
     background-color: #16697A;
 }
 .bg-252B42{
     background-color: #252B42;
 }
+.fake-black{
+    color: #252B42;
+}
+.fake-grey{
+    color: #737373;
+}
+.fs40{
+    font-size: 40px;
+}
+.fs14{
+    font-size: 14px;
+}
+.fs24{
+    font-size: 24px;
+}
+.fs16{
+    font-size: 16px;
+}
 @media screen and (min-width: 768px) {
     .test{
         background-color: transparent !important;
     }
     #Clients{
-        background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(37,43,66,1) 70%, rgba(37,43,66,1) 100%);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(37,43,66,1) 80%, rgba(37,43,66,1) 100%);
     }
     #imgSecretaire{
         transform: translateX(25%);
