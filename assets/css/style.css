@@ -1,6 +1,4 @@
 body{
-    padding: 0;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
@@ -17,7 +15,6 @@ nav{
     color: #737373;
 }
 #imgSecretaire{
-    min-height: 60vh;
     object-fit: cover;
 }
 #pSizeChangeHeader{
@@ -48,10 +45,6 @@ nav{
 #middleCardFeature1{
     background-color: #40B8D1;
 }
-#Feature2{
-    min-height: 60vh;
-    background-color: #FAFAFA;
-}
 #play{
     width: 25px;
     height: 25px;
@@ -60,21 +53,6 @@ nav{
     background-color: #F3F3F3;
 }
 
-
-/* Custom Class */
-
-.fs40{
-    font-size: 40px;
-}
-.fs14{
-    font-size: 14px;
-}
-.fs24{
-    font-size: 24px;
-}
-.fs16{
-    font-size: 16px;
-}
 @media screen and (min-width: 768px) {
     .test{
         background-color: transparent !important;

@@ -9421,6 +9421,22 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-14 {
+  font-size: 0.875rem !important;
+}
+
+.fs-16 {
+  font-size: 1rem !important;
+}
+
+.fs-24 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.fs-40 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12715,6 +12731,12 @@ fieldset:disabled .btn {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .fs-24 {
+    font-size: 1.5rem !important;
+  }
+  .fs-40 {
+    font-size: 2.5rem !important;
   }
 }
 
